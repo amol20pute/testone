@@ -1,9 +1,9 @@
-import { NativeModules } from 'react-native'
+import {NativeModules} from 'react-native';
 
-const RNEmulatorCheck = NativeModules.RNEmulatorCheck
+const RNEmulatorCheck = NativeModules.RNEmulatorCheck;
 
 export default {
   isEmulator() {
-    return RNEmulatorCheck && RNEmulatorCheck.isEmulator
-  }
-}
+    return RNEmulatorCheck && RNEmulatorCheck.isEmulator;
+  },
+};
